@@ -1,0 +1,40 @@
+# Alarm Clock
+
+## DESCRIPTION
+
+    This project is used to keep track of the desired time of the user and let the user know when the desired time as approached.
+
+## Steps taken to develop the project
+
+1. Firstly we import every module we will need in this project which are the time, datetime and pygame.
+
+2. Then we define a function to set the alarm.
+
+3. Then we write a function to call at the main so as to run the set alarm function and create an input field for the user to input time.
+
+   ```py
+   if __name__ == "__main__":
+       alarm_time = input("Enter the alarm time (HH:MM:SS): ")
+       set_alarm(alarm_time)
+   ```
+
+4. Then we begin to write the function to set the alarm to begin that we write all variables we need firstly.
+
+5. Then in a loop because we want the time to continuing to keep on counting down till it reaches the time the user wants countdown to stop.
+
+6. Then we create a variable that displays the current time in the form of hh:mm:ss and make it sleep and move again after 1 seconds.
+
+7. Then we write an if function for if for when current time is the same as the alarm time the user inputed and write what it should do at that period.
+
+8. Then next we initialiaze the pygame mixer module which will be used for the sound effect when the current time is the same as the set alarm time.
+
+9. Then from above one of the variables we had was a sound file so we load the music and then play it all this is done when current time is the same as the set alarm time.
+
+10. We write a loop for the music to keep playing within a certain time before it breaks out of the loop completely and stops.
+
+## OUTCOME
+
+![alt text](<alarm_clock outcome1.png>)
+![alt text](<alarm_clock outcome2.png>)
+![alt text](<alarm_clock outcome3.png>)
+![alt text](<alarm_clock outcome4.png>)
